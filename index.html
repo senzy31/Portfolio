@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Explore Sean Fuertes’ software development projects, technical toolkit, and cybersecurity learning journey as an Information Technology student at FAITH Colleges.">
+  <title>Sean Fuertes | Software Development &amp; Cybersecurity</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script defer src="assets/icons/lucide.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#home" aria-label="Sean Fuertes, home"><span class="brand-mark" aria-hidden="true">S<span>F</span></span><span>sean<span class="brand-ext">.dev</span></span></a>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#home" aria-current="location">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="connect" href="#contact"><i data-icon="message-square"></i>Let's Connect</a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation"><i data-icon="menu"></i></button>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="intro-title">
+      <div class="hero-art" aria-hidden="true"><canvas id="terrain"></canvas></div>
+      <div class="wrap hero-layout">
+        <div class="intro">
+          <p class="availability"><span class="status-dot"></span>Available for opportunities</p>
+          <h1 id="intro-title">Hi, I'm<br><span>Sean Fuertes.</span></h1>
+          <p class="role"><span class="prompt-mark" aria-hidden="true">&gt;</span> <span class="sr-only">Aspiring Software Developer</span><span id="role-type" aria-hidden="true">Aspiring Software Developer</span><span class="caret" aria-hidden="true"></span></p>
+          <p class="hero-description">I'm an Information Technology student passionate about building web applications, solving real-world problems, and exploring cybersecurity. I enjoy learning new technologies and developing systems that are both functional and secure.</p>
+          <div class="actions"><a class="button primary" href="#projects"><i data-icon="folder-code"></i>View My Projects</a><a class="button secondary" data-profile="resume" href="assets/resume-draft.pdf" download><i data-icon="download"></i>Download Resume</a></div>
+          <div class="socials" data-socials aria-label="Social and contact links"></div>
+        </div>
+        <div class="terminal" aria-label="Interactive portfolio terminal">
+          <div class="window-bar"><div class="window-dots" aria-hidden="true"><b></b><b></b><b></b></div><span><i data-icon="terminal"></i>sean@portfolio: ~</span><i data-icon="panels-top-left"></i></div>
+          <div class="terminal-body" tabindex="0" role="region" aria-label="Terminal history">
+            <div id="history">
+              <div class="command-group"><p><b>sean@portfolio</b><em>:~$</em> whoami</p><p class="output">Aspiring Software Developer</p></div>
+              <div class="command-group"><p><b>sean@portfolio</b><em>:~$</em> interests</p><p class="output">Web Development<br>Cybersecurity<br>Backend Development<br>Database Management</p></div>
+              <div class="command-group"><p><b>sean@portfolio</b><em>:~$</em> status</p><p class="output online">Available for Opportunities</p></div>
+            </div>
+            <form id="command-form" autocomplete="off"><label for="command"><b>sean@portfolio</b><em>:~$</em></label><span class="command-field"><input id="command" name="command" aria-label="Portfolio terminal command. Type help for commands." maxlength="80" autocapitalize="off" spellcheck="false"><span class="block-caret" aria-hidden="true"></span></span></form>
+          </div>
+          <div class="terminal-foot"><span><span class="status-dot"></span>Shell ready</span><button type="button" id="terminal-help" aria-label="Show available terminal commands">type <kbd>help</kbd></button></div>
+        </div>
+      </div>
+      <div class="wrap hero-bottom"><a href="#about"><i data-icon="mouse"></i>Scroll to explore<i data-icon="chevrons-down"></i></a></div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title"><div class="wrap">
+      <p class="eyebrow">About me</p><h2 id="about-title">Beyond the Code<span>.</span></h2>
+      <div class="about-layout"><div class="bio">
+        <p>I'm a Bachelor of Science in Information Technology student who enjoys exploring how technology works. My main interests are software development, web applications, database systems, and cybersecurity.</p>
+        <p>Through academic and client-based projects, I've gained hands-on experience creating applications, integrating APIs, managing databases, and solving technical problems.</p>
+        <p>I'm continuously improving my programming skills while exploring cybersecurity concepts such as networking, system security, and ethical hacking.</p>
+      </div><figure class="profile-card"><img id="portrait" src="assets/images/profile-placeholder.png" width="640" height="320" loading="lazy" alt="Sean Fuertes monogram, profile photo placeholder"><figcaption><span><strong>Sean Fuertes</strong><small>BS Information Technology</small></span><i data-icon="code-xml"></i></figcaption></figure></div>
+      <div class="highlights"><div><i data-icon="braces"></i>Software Development</div><div><i data-icon="shield"></i>Cybersecurity Exploration</div><div><i data-icon="book-open"></i>Continuous Learning</div></div>
+    </div></section>
+
+    <section id="skills" class="section tinted" aria-labelledby="skills-title"><div class="wrap">
+      <p class="eyebrow">Skills</p><h2 id="skills-title">My Technical Toolkit<span>.</span></h2><div id="skill-grid" class="skill-grid"></div>
+    </div></section>
+    <section id="projects" class="section" aria-labelledby="projects-title"><div class="wrap">
+      <p class="eyebrow">Featured projects</p><h2 id="projects-title">Selected Works<span>.</span></h2><div id="project-grid" class="project-grid"></div>
+    </div></section>
+    <section id="experience" class="section tinted" aria-labelledby="journey-title"><div class="wrap journey-layout">
+      <div><p class="eyebrow">Experience &amp; education</p><h2 id="journey-title">My Journey<span>.</span></h2></div>
+      <ol class="timeline">
+        <li><i data-icon="graduation-cap"></i><div><small>Education</small><h3>Bachelor of Science in Information Technology</h3><strong>FAITH Colleges</strong><p>Studying software development, databases, networking, and other IT fundamentals.</p></div></li>
+        <li><i data-icon="briefcase-business"></i><div><small>Client project</small><h3>Client-Based Software Development</h3><strong>BM's Catering Services</strong><p>Developed and designed features for a catering reservation and management system. Worked on project requirements, database structure, and application functionality.</p></div></li>
+        <li><i data-icon="folder-code"></i><div><small>Coursework</small><h3>Academic Software Development Projects</h3><p>Built web applications and practiced backend development, API integration, and database management.</p></div></li>
+        <li><i data-icon="shield-check"></i><div><small>Independent learning</small><h3>Cybersecurity Exploration</h3><p>Learning networking concepts, Linux fundamentals, and cybersecurity practices. Interested in ethical hacking, secure software development, and defensive security.</p></div></li>
+      </ol>
+    </div></section>
+    <section id="security" class="section" aria-labelledby="security-title"><div class="wrap security-layout">
+      <div><p class="eyebrow">Cybersecurity</p><h2 id="security-title">Security Is Part of the Process<span>.</span></h2><p class="section-copy">I'm exploring how to protect the applications I build, from the network they run on to the code that handles user input.</p></div>
+      <div class="security-console"><div class="security-top"><i data-icon="shield-check"></i><span>security.log</span><small><span class="status-dot"></span>Simulation</small></div><div class="security-lines"><p class="security-prompt">$ list learning-topics</p><ul><li>Network Security</li><li>Linux Fundamentals</li><li>Secure Coding</li><li>Vulnerability Assessment Concepts</li><li>Ethical Hacking</li><li>Cyber Defense</li></ul></div></div>
+    </div></section>
+    <section id="contact" class="section tinted" aria-labelledby="contact-title"><div class="wrap contact-layout">
+      <div><p class="eyebrow">Contact</p><h2 id="contact-title">Let's Build Something Together<span>.</span></h2><p class="section-copy">I'm always open to learning opportunities, internships, collaborations, and conversations about software development and cybersecurity.</p><div id="contact-links" class="contact-links"></div></div>
+      <form id="contact-form" class="contact-form"><div class="form-row"><label>Full Name<input required name="fullName" maxlength="100" autocomplete="name" placeholder="Your name"></label><label>Email Address<input required type="email" name="email" maxlength="254" autocomplete="email" placeholder="your@gmail.com"></label></div><label>Subject<input required name="subject" maxlength="160" placeholder="What would you like to discuss?"></label><label>Message<textarea required name="message" maxlength="2500" rows="5" placeholder="Write your message…"></textarea></label><p id="form-note">Opens a draft in your email app for you to review and send.</p><button type="submit" class="button primary"><i data-icon="send"></i>Send Message</button><p id="form-status" role="status" hidden></p></form>
+    </div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><a class="brand-mark" href="#home" aria-label="Sean Fuertes, home">S<span>F</span></a><p>© <span id="year"></span> · Designed &amp; Developed by Sean Fuertes</p><div class="socials" data-socials></div><a class="back-top" href="#home"><i data-icon="chevron-up"></i>Back to top</a></div></footer>
+  <div id="notice" role="status" class="notice" hidden></div>
+</body>
+</html>
